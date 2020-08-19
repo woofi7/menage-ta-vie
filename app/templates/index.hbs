@@ -1,0 +1,142 @@
+<div id="home">
+  <table class="h-100 mx-auto">
+    <tbody>
+    <tr>
+      <td class="align-middle text-center">
+        <h1>{{t "home.caption1"}}</h1>
+        <h2>{{t "home.caption2"}}</h2>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div id="about">
+  <div class="container text-center text-white py-5">
+    <h1 class="font-weight-bolder">{{t "about.title"}}</h1>
+    <div class="row">
+      <div class="col-10 offset-1 col-sm-6 offset-sm-3">
+        <div class="px-5 mx-5 my-3">
+          <img src="assets/images/star2.svg" class="img-fluid" alt="stars">
+        </div>
+        <p>
+          {{t "about.desc"}}
+        </p>
+        <BsButton @type="outline-primary">
+          {{t "about.more"}}
+        </BsButton>
+      </div>
+    </div>
+  </div>
+  <div id="services" class="container text-center py-5">
+    <h1 class="text-blue mt-5 font-weight-bolder">{{t "services.title"}}</h1>
+    <div class="row">
+      <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-8 offset-2 text-uppercase">
+        <div class="px-sm-5 px-2">
+          <img src="assets/images/star3.svg" class="img-fluid" alt="stars">
+        </div>
+        <div class="row pt-3">
+          <div class="col p-2">
+            <div class="serviceCard">
+              <img class="card-img-top px-4 pt-4 service-residentiel-img" src="assets/images/serviceResidentiel.svg" alt="Card image cap">
+              <h6 class="card-title text-white py-2 px-2">{{t "services.residentiel"}}</h6>
+            </div>
+          </div>
+          <div class="col p-2">
+            <div class="serviceCard">
+              <img class="card-img-top px-4 pt-4 service-commercial-img" src="assets/images/serviceCommercial.svg" alt="Card image cap">
+              <h6 class="card-title text-white py-2 px-2">{{t "services.commercial"}}</h6>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col p-2">
+            <div class="serviceCard">
+              <img class="card-img-top px-4 pt-4 service-conciergerie-img" src="assets/images/serviceConciergerie.svg" alt="Card image cap">
+              <h6 class="card-title text-white py-2 px-2">{{t "services.conciergerie"}}</h6>
+            </div>
+          </div>
+          <div class="col p-2">
+            <div class="serviceCard">
+              <img class="card-img-top px-4 pt-4 service-apres-construction-img" src="assets/images/serviceApresConstruction.svg" alt="Card image cap">
+              <h6 class="card-title text-white py-2 px-2">{{t "services.construction"}}</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="devis">
+  <div class="container text-center py-5 text-white">
+    <h1 class="font-weight-bolder">{{t "devis.title"}}</h1>
+    <div class="col-10 offset-1 col-sm-6 offset-sm-3">
+      <p class="py-3">
+        {{t "devis.desc"}}
+      </p>
+      <BsButton @type="outline-light">
+        {{t "devis.formButton"}}
+      </BsButton>
+    </div>
+  </div>
+
+  <div id="temoignages" class="container-fluid text-center pt-5 pb-3 text-blue position-relative">
+    <h1 class="font-weight-bolder">{{t "temoignages.title1"}}<br>{{t "temoignages.title2"}}</h1>
+    <div class="col-10 offset-1 col-sm-6 offset-sm-3">
+      <div class="container">
+        <div id="carouselContent" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselContent" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselContent" data-slide-to="1"></li>
+            <li data-target="#carouselContent" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active text-center p-4">
+              <p>{{t "temoignages.testimony1"}}</p>
+              <p>{{t "temoignages.author1"}}</p>
+            </div>
+            <div class="carousel-item text-center p-4">
+              <p>{{t "temoignages.testimony2"}}</p>
+              <p>{{t "temoignages.author2"}}</p>
+            </div>
+            <div class="carousel-item text-center p-4">
+              <p>{{t "temoignages.testimony3"}}</p>
+              <p>{{t "temoignages.author3"}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="logo" class="position-absolute w-25">
+      <img src="assets/images/logo.svg" alt="MénageTaVie">
+    </div>
+  </div>
+</div>
+
+<div id="contact">
+  <div class="container-fluid text-center pt-5 pb-2 text-white">
+    <h1 class="font-weight-bolder">{{t "contact.title"}}</h1>
+    <div class="px-sm-5 px-2 col-4 offset-4 pb-2">
+      <img src="assets/images/star4.svg" class="img-fluid" alt="stars">
+    </div>
+    <p>
+      <a href="tel:">{{t "contact.phone"}}</a><br>
+      <a href="mailto:">{{t "contact.email"}}</a>
+    </p>
+    <p>
+      {{t "contact.address1"}}<br>
+      {{t "contact.address2"}}<br>
+      {{t "contact.address3"}}
+    </p>
+  </div>
+</div>
+
+<div id="contact2"></div>
+
+<div id="footer">
+  <div class="text-center text-white p-2">
+    ©2020 <a href="https://consultantspro.ca/">ConsultantsPro</a>. Tous droits réservés.
+  </div>
+</div>

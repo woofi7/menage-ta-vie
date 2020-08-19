@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'menage-ta-vie',
     environment,
-    rootURL: '/',
+    rootURL: '/MenageTaVie',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {

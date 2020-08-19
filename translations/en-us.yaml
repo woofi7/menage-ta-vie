@@ -1,0 +1,42 @@
+home:
+  title: "Accueil"
+  caption1: "Un ménage"
+  caption2: "propre à chacun de soi!"
+
+about:
+  title: "Qui sommes-nous?"
+  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum vel nulla non cursus.
+         Vivamus euismod, dui quis vulputate rutrum, augue mi gravida nibh, vel bibendum dolor velit ut turpis.
+         Curabitur vel felis lectus. Nulla tempus tortor sed tellus ultrices pharetra. Aenean viverra pharetra justo."
+  more: "En savoir +"
+
+services:
+  title: "Nos services"
+  residentiel: "Résidentiel"
+  commercial: "Commercial"
+  conciergerie: "Service de conciergerie"
+  construction: "Après Construction"
+
+contact:
+  title: "Nous joindre"
+  phone: "Tél.: (819) 000-0000"
+  email: "info@test.com"
+  address1: "123, rue Lbfref"
+  address2: "Jljkfgndg, Qc"
+  address3: "H2F 9D6"
+
+devis:
+  title: "Demandez un devis gratuit!"
+  desc: "Vivamus in tristique nulla. Vivamus consequat ornare fermentum. Vestibulum purus justo, convallis a dignissim
+         a, porta a sapien. Sed at tellus ex."
+  formButton: "Formulaire en ligne"
+
+temoignages:
+  title1: "Témoignages"
+  title2: "de nos clients satisfaits"
+  testimony1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  author1: "Paul G."
+  testimony2: "Nullam vitae magna eros. Etiam bibendum a lectus ut laoreet. "
+  author2: "Anne B."
+  testimony3: " Etiam fringilla nisi augue, vel vulputate risus aliquet maximus."
+  author3: "Lorem I."

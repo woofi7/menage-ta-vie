@@ -1,0 +1,167 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Regular.ttf");
+}
+
+body {
+  font-family: "Open Sans", Arial, serif;
+}
+
+.bg-dark {
+  background-color: #35A8DF !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.contact {
+  float: right;
+  background-color: #253571;
+}
+
+.contact a {
+  color: #A8C93E;
+}
+
+
+#home {
+  background: url("images/backgroundHome.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+#home h1 {
+  font-size: 5em;
+  color: #243571;
+  font-weight: bolder;
+}
+
+#home h2 {
+  font-size: 3em;
+  color: #35A8E0;
+  font-weight: bold;
+}
+
+#about {
+  background-image: url("images/backgroundBlue.jpg");
+  background-color: #253571;
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar-collapse {
+    margin-left: 200px;
+  }
+  #services {
+    background-color: white;
+    clip-path: polygon(50% 0, 100% 33%, 100% 100%, 0% 100%, 0% 33%);
+  }
+
+  .serviceCard h6 {
+    font-size: medium;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  #services {
+    background-color: white;
+    clip-path: polygon(50% 0, 100% 25%, 100% 100%, 0% 100%, 0% 25%);
+  }
+
+  .navbar-brand {
+    left: 0;
+  }
+
+  .navbar-brand img {
+    height: 120px;
+  }
+
+  .serviceCard h6 {
+    font-size: small;
+  }
+}
+
+.text-blue {
+  color: #35A8DF;
+}
+
+.serviceCard {
+  background-color: #253571;
+  width: 100%;
+}
+
+#devis {
+  background-color: #93C01F;
+}
+
+#temoignages {
+  background-color: white;
+}
+
+#temoignages h1 {
+  color: #253570;
+}
+
+#contact {
+  background-color: #35A8DF;
+}
+
+#contact2 {
+  background: url("images/backgroundContact.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+#contact a {
+  color: white;
+}
+
+.service-residentiel-img {
+  filter: invert(55%) sepia(65%) saturate(560%) hue-rotate(157deg) brightness(95%) contrast(83%);
+}
+
+.service-commercial-img {
+  filter: invert(60%) sepia(55%) saturate(567%) hue-rotate(36deg) brightness(100%) contrast(96%);
+}
+
+.service-conciergerie-img {
+  filter: invert(21%) sepia(54%) saturate(5666%) hue-rotate(188deg) brightness(101%) contrast(101%);
+}
+
+.service-apres-construction-img {
+  filter: invert(55%) sepia(67%) saturate(516%) hue-rotate(70deg) brightness(85%) contrast(89%);
+}
+
+.contact a img {
+  height: 1.5em;
+  filter: invert(56%) sepia(92%) saturate(1035%) hue-rotate(169deg) brightness(94%) contrast(86%);
+}
+
+#footer {
+  background-color: #243571;
+}
+
+#logo {
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators li {
+  background-color: #35A8DF;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+  display:block;
+}
+
+#temoignages .carousel {
+  height: 150px;
+}
